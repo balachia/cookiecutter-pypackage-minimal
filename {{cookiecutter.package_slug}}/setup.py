@@ -1,9 +1,9 @@
 import setuptools
 
 setuptools.setup(
-    name="{{ cookiecutter.package_name }}",
+    name="{{ cookiecutter.package_slug }}",
     version="{{ cookiecutter.package_version }}",
-    url="{{ cookiecutter.package_url }}",
+    url='https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}',
 
     author="{{ cookiecutter.author_name }}",
     author_email="{{ cookiecutter.author_email }}",
