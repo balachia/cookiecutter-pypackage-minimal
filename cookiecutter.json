@@ -4,7 +4,7 @@
     "github_username": "balachia",
 
     "package_name": "",
-    "package_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+    "package_slug": "{{ cookiecutter.package_name.lower().replace(' ', '_').replace('-', '_') }}",
     "package_version": "0.1.0",
     "package_description": "An opinionated, minimal cookiecutter template for Python packages",
     "pypi_username": "{{ cookiecutter.github_username }}"
