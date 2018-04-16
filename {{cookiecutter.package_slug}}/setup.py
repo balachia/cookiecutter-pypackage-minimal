@@ -3,7 +3,7 @@ import setuptools
 setuptools.setup(
     name="{{ cookiecutter.package_slug }}",
     version="{{ cookiecutter.package_version }}",
-    url='https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}',
+    url='https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.package_slug }}',
 
     author="{{ cookiecutter.author_name }}",
     author_email="{{ cookiecutter.author_email }}",
